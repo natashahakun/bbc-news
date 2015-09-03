@@ -1,4 +1,74 @@
-.upper-navbar {
-  background-color: #FFFFFF;
+body,header,nav, ul,h1,h2 {
+  padding: 0;
+  margin: 0 auto;
+}
 
+body {
+  width: 1000px;
+  font-family: Arial, sans serif;
+  font-size: 15px;
+}
+
+li {
+  display: inline-block;
+}
+
+.bbc-links-list li {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 1%;
+  border-left: 1px #CCCCCC solid;
+
+}
+
+.news {
+  background-color: #BB1919;
+  font-family: Gill Sans;
+  font-weight: 300;
+  font-size: 44px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: .5%;
+}
+
+.news-links {
+  height: 40px;
+  background-color: #A91717;
+  color: #FFFFFF;
+}
+
+.news-links-list li {
+  border-right: 1px #BB4545 solid;
+  padding: 1%;
+}
+
+.section-info {
+  position: relative;
+  float: left;
+  width: 70%;
+  border-right: 1px #DBDBDB solid;
+}
+
+.section-main {
+  color: #5A5A5A;
+  padding-top: 3%;
+}
+
+.heading-main {
+  font-size: 32px;
+  color: black;
+}
+
+.section-links-list li {
+  display: block;
+}
+
+.sidebar-links {
+  position: relative;
+  width: 25%;
+  float: right;
+}
+
+.sidebar-links li {
+  display: block;
 }
