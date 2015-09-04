@@ -1,4 +1,4 @@
-body,header,nav, ul,h1,h2 {
+body,header,nav,ul,h1,h2 {
   padding: 0;
   margin: 0 auto;
 }
@@ -13,31 +13,30 @@ li {
   display: inline-block;
 }
 
-.bbc-links-list li {
+.bbc-links li {
   font-size: 13px;
   font-weight: bold;
   padding: 1%;
-  border-left: 1px #CCCCCC solid;
-
+  border-left: 1px #CCC solid;
 }
 
-.news {
+.news-heading {
   background-color: #BB1919;
   font-family: Gill Sans;
   font-weight: 300;
   font-size: 44px;
-  color: #FFFFFF;
+  color: #FFF;
   text-transform: uppercase;
   padding: .5%;
 }
 
-.news-links {
+.news-links-container {
   height: 40px;
   background-color: #A91717;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
-.news-links-list li {
+.news-links li {
   border-right: 1px #BB4545 solid;
   padding: 1%;
 }
@@ -49,21 +48,21 @@ li {
   border-right: 1px #DBDBDB solid;
 }
 
-.section-main {
+.featured-story {
   color: #5A5A5A;
   padding-top: 3%;
 }
 
-.heading-main {
+.featured-heading {
   font-size: 32px;
   color: black;
 }
 
-.section-links-list li {
+.featured-links li {
   display: block;
 }
 
-.sidebar-links {
+.sidebar-links-container {
   position: relative;
   width: 25%;
   float: right;

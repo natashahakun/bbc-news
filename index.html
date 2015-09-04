@@ -7,10 +7,10 @@
 </head>
 
 <body>
-  <header>
-    <div class="bbc-links">
-      <nav class="header-nav">
-        <ul class="bbc-links-list">
+  <header role="banner">
+    <div class="bbc-links-container">
+      <nav class="bbc-nav" role="navigation">
+        <ul class="bbc-links">
           <li>BBC</li>
           <li>Sign in</li>
           <li>News</li>
@@ -26,17 +26,17 @@
             </select>
           </li>
           <li>
-            <form>
+            <form class="searchbar" role="search">
               <input type="text" value="search">
             </form>
           </li>
-        </ul>
+        </ul><!--end .bbc-links-list-->
       </nav>
-    </div> <!--end "bbc-links"-->
-    <h1 class="news">News</h1>
-    <div class="news-links">
-      <nav class="main-nav">
-        <ul class="news-links-list">
+    </div> <!--end .bbc-links-->
+    <h1 class="news-heading">News</h1>
+    <div class="news-links-container">
+      <nav class="news-nav" role="navigation">
+        <ul class="news-links">
           <li>Home</li>
           <li>Video</li>
           <li>World</li>
@@ -49,55 +49,57 @@
           <li>Entertainment &amp; Arts</li>
           <li>Health</li>
           <li>
-            <select>
+            <select class="more-links">
               <option>More</option>
               <option></option>
             </select>
           </li>
-        </ul>
+        </ul><!--end .news-links-list -->
       </nav>
-    </div> <!--end "news-links"-->
+    </div> <!--end .news-links-->
   </header>
 
-<section>
+<section role="main">
   <div class="section-info">
-    <div class="section-main">
-      <h1 class="heading-main">Migrants refuse to leave Hungary train</h1>
+    <div class="featured-story">
+      <h1 class="featured-heading">Migrants refuse to leave Hungary train</h1>
       <p>Scuffles break out west of Budapest as police try to force migrants off a train at a refugee camp, while European leaders wrangle over the growing refugee crisis.</p>
       <div><img src="http://www.bbc.com/news/world-europe-34142512" /></div>
       <div>38 minutes ago | Europe</div>
-      <div "section-links">
-        <ul "section-links-list">
+      <div class="featured-links-container">
+        <ul class="featured-links">
           <li>Live Latest updates</li>
           <li>Boy's father tells of drowning</li>
           <li>Chaos as police stop train</li>
           <li>UK will fulfill obligations</li>
         </ul>
-      </div> <!--end "section-links"-->
-    </div> <!--end "section-main"-->
-    <div class="story-links">
-      <ul class="story-links-list">
+      </div> <!--end .featured-links-->
+    </div> <!--end .featured-story-->
+    <div class="secondary-links-container">
+      <ul class="secondary-links">
         <li>Outcry over drowned boy's photo</li>
         <li>Why so few Syrians go to Gulf states</li>
         <li>Europe's volunteers welcome migrants</li>
         <li>Maps and charts of the crisis</li>
       </ul>
-    </div> <!--end "story-links"-->
-  </div> <!--end "section-info"-->
+    </div> <!--end .secondary-links-->
+  </div> <!--end .section-info-->
 </section>
 
-<aside>
-  <h1>Watch/Listen</h1>
-  <h2>Live World Service radio</h2>
-  <div class="sidebar-links">
-    <ul class="sidebar-links-list">
+<aside role="complementary">
+  <div class="sidebar-info">
+    <h2>Watch/Listen</h2>
+    <h3>Live World Service radio</h3>
+  </div>
+  <div class="sidebar-links-container">
+    <ul class="sidebar-links">
       <li>Chaos as polic stop Hungary migrant train</li>
       <li>Massive military parade held in Beijing</li>
       <li>Londongrad: TV show on expat Russians</li>
       <li>Catwalk models are too slim</li>
       <li>Where flamethrowers are sold for fun</li>
     </ul>
-  </div> <!--end "sidebar-links"-->
+  </div> <!--end .sidebar-links-container-->
 </aside>
 </body>
 </html>
