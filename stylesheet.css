@@ -4,8 +4,11 @@ body,header,nav,ul,h1,h2 {
 }
 
 body {
-  width: 1000px;
-  font-family: Arial, sans serif;
+  max-width: 1000px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: Arial, sans-serif;
   font-size: 15px;
   color: #5A5A5A;
 }
@@ -14,11 +17,26 @@ li {
   display: inline-block;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .bbc-links li {
   font-size: 13px;
   font-weight: bold;
   padding: 1%;
   border-left: 1px #CCC solid;
+  color: #5A5A5A;
+}
+
+.bbc-logo {
+  width: 80px;
+  height: 25px;
+}
+
+.news-header {
+  margin-left: -100px;
+  margin-right: -100px;
 }
 
 .news-heading {
@@ -28,13 +46,14 @@ li {
   font-size: 44px;
   color: #FFF;
   text-transform: uppercase;
-  padding: .5%;
+  padding-left: 8.5%;
 }
 
 .news-links-container {
   height: 40px;
   background-color: #A91717;
   color: #FFF;
+  padding-left: 7.5%;
 }
 
 .news-links li {
@@ -59,15 +78,6 @@ li {
   color: black;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  color: #5A5A5A;
-  text-decoration: none;
-}
-
 .featured-text {
   width: 35%;
   float: left;
@@ -87,6 +97,7 @@ a:visited {
   float: right;
   margin-top: 2%;
   margin-right:3%;
+  margin-bottom: 4%;
 }
 
 .featured-links-container {
@@ -121,10 +132,21 @@ a:visited {
   display: block;
 }
 
+.section-info a:visited, .sidebar a:visited {
+  color: #5A5A5A;
+  text-decoration: none;
+}
+
+.sidebar {
+  padding-top: 2.5%;
+}
+
 .sidebar-info {
   font-family: Arial;
   color: #404040;
   font-weight: 100;
+  float: right;
+  padding-right: 8%;
 }
 
 .sidebar-links-container {
@@ -142,4 +164,8 @@ a:visited {
 
 .sidebar-links li {
   display: block;
+}
+
+footer {
+  clear: both;
 }
