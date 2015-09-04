@@ -7,7 +7,7 @@ body {
   width: 1000px;
   font-family: Arial, sans serif;
   font-size: 15px;
-  color: #5A5A5A;;
+  color: #5A5A5A;
 }
 
 li {
@@ -40,6 +40,7 @@ li {
 .news-links li {
   border-right: 1px #BB4545 solid;
   padding: 1%;
+  color: #FFF;
 }
 
 .section-info {
@@ -55,6 +56,16 @@ li {
 
 .featured-heading {
   font-size: 32px;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #5A5A5A;
+  text-decoration: none;
 }
 
 .featured-text {
@@ -101,11 +112,13 @@ li {
   padding-top: 3%;
   border-top: 1px #CCC solid;
   margin-top: 5%;
+  font-size: 14px;
 }
 
-.boy {
-  width: 20px;
-  height: 20px;
+.secondary-photos {
+  width: 150px;
+  height: 75px;
+  display: block;
 }
 
 .sidebar-info {
