@@ -34,6 +34,10 @@ a:link {
   height: 25px;
 }
 
+.bbc-links a:nth-of-type(1) li {
+  border: none;
+}
+
 .bbc-links a:nth-of-type(2) li {
   width: 150px;
 }
@@ -114,6 +118,11 @@ a:link {
   margin-bottom: 3%;
 }
 
+.featured-time {
+  display: inline-block;
+  padding-top: 5%;
+}
+
 .featured-links-container {
   display: inline-block;
   width: 30%;
@@ -124,6 +133,7 @@ a:link {
   display: block;
   float: left;
   color: black;
+  margin-bottom: 5%;
 }
 
 .secondary-links-container {
@@ -151,6 +161,10 @@ td {
   text-decoration: none;
 }
 
+a:hover, a:visited:hover {
+  color: #1167A8;
+}
+
 .sidebar {
   padding-top: 2.5%;
 }
@@ -158,9 +172,19 @@ td {
 .sidebar-info {
   font-family: Arial;
   color: #404040;
+  font-size: 13px;
   font-weight: 100;
   float: right;
   padding-right: 8%;
+}
+
+.live {
+  width: 35px;
+  height: 20px;
+  background-color: #BB1919;
+  color: #FFF;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .sidebar-links-container {
@@ -178,6 +202,7 @@ td {
 
 .sidebar-links li {
   display: block;
+  margin-bottom: 10%;
 }
 
 footer {
