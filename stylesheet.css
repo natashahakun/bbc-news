@@ -117,7 +117,6 @@ a:link {
 
 .featured-heading {
   font-size: 32px;
-  color: black;
 }
 
 .featured-text {
@@ -155,7 +154,6 @@ a:link {
 .featured-links li {
   display: block;
   float: left;
-  color: black;
   margin-bottom: 5%;
 }
 
@@ -184,6 +182,10 @@ td {
 .section-info a:visited, .sidebar a:visited {
   color: #5A5A5A;
   text-decoration: none;
+}
+
+a {
+  color: black;
 }
 
 a:hover, a:visited:hover {
@@ -229,7 +231,6 @@ a:hover, a:visited:hover {
 
 .sidebar-link-title {
   width: 130px;
-  color: black;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
