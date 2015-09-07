@@ -129,6 +129,14 @@ a:link {
   margin-top: 2%;
 }
 
+.sidebar-right {
+  width: 135px;
+  display: inline-block;
+  padding-left: 2px;
+  margin-top: 0;
+  float: right;
+}
+
 .location {
   color: #BB1919;
 }
@@ -238,7 +246,8 @@ a:hover, a:visited:hover {
 }
 
 .sidebar-links li {
-  display: block;
+  display: inline-block;
+  margin-bottom: 5%;
 }
 
 footer {
